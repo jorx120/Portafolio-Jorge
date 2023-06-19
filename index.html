@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Portafolio</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link href="css/style.css" rel="stylesheet">
+<link href="img/favicon.png" rel="icon">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Jorge Álvarez</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#acerca">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portafolio">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="acerca">
+    <div>
+        <img src="img/jorge.jpeg" alt="Jorge Álvarez">
+    </div>
+    <div class="container">
+      <div class="row">
+        <article class="col-lg-6 col-sm-6 col-12">
+          <br>
+          <br>
+          <h2>Acerca de mí</h2>
+        </article>
+        <article class="col-lg-6 col-sm-6 col-12">
+      <p>Me llamo Jorge Alberto Álvarez Mejía, tengo 22 años y actualmente estudio la carrera de Comunicación Audiovisual y Publicitaria. Me apasiona el cine y la televisión,además de ser un aficionado de los deportes en general. La idea es algún día combinar mis dos pasiones.</p>
+        </article>
+    </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="las la-code"></i>
+          <h4>Diseño web</h4>
+          <p>Destaca en línea con un sitio web personalizado y profesional. Nuestros servicios de diseño web te brindan la oportunidad de mostrar tu personalidad y habilidades únicas a través de un diseño atractivo y funcional. Destaca entre la multitud y crea un impacto duradero con una presencia en línea que refleje quién eres y lo que haces..</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="las la-camera"></i>
+          <h4>Fotografía</h4>
+          <p>Captura momentos memorables con nuestros servicios de fotografía personalizados. Nuestro enfoque artístico y profesional te permite contar tu historia a través de imágenes excepcionales y expresivas. Desde retratos impactantes hasta eventos especiales, te ayudamos a crear recuerdos duraderos con un estilo único y una atención meticulosa al detalle.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="las la-film"></i>
+          <h4>Edición de Video</h4>
+          <p>Potencia tu narrativa visual con nuestros servicios de edición de video personalizados. Transformamos tus grabaciones en piezas cinematográficas cautivadoras y emocionantes, con efectos visuales sorprendentes y una edición fluida. Ya sea para proyectos personales, eventos especiales o contenido digital, te ayudamos a dar vida a tus ideas y a contar historias impactantes a través del poder del video.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolio">
+    <div class="container">
+      <h2>Portafolio</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <a data-fancybox="gallery" href="cartel_los_simpsons.jpg">
+            <img src="img/cartel_los_simpsons.jpg" alt="Los Simpsons">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a data-fancybox="gallery" href="givenchy.jpg">
+            <img src="img/givenchy.jpg" alt="Givenchy">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a data-fancybox="gallery" href="nolan.jpeg">
+            <img src="img/nolan.jpeg" alt="Cristopher Nolan">
+          </a>
+        </div>
+      </div>
+      <div>
+        <br>
+        <br>
+        <h3>Curiosidades - Jorge Álvarez</h3>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MYz4r4unpgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" class="form-control" id="correo" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2023 Jorge Álvarez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
